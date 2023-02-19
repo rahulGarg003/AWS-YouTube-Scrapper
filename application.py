@@ -10,7 +10,8 @@ try:
 except KeyError:
     exit('Error: Invalid <config_mode>')
 
-app = create_app(app_config)
+application = create_app(app_config)
+app = application
 
 app.jinja_env.globals.update(len=len)
 app.jinja_env.globals.update(enumerate=enumerate)
