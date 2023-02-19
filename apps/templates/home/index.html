@@ -1,0 +1,56 @@
+{% extends 'layouts/base.html' %}
+
+
+{% block content %}
+
+<div class="container" style="margin-top: 5rem;">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title text-center">Youtube Scrapper</h5>
+            <div class="container" style="width: 30rem;">
+                <form onsubmit="window.location = '/channel/' + channelId.value; return false;">
+                    <div class="mb-3 mt-4">
+                        <label for="channelId" class="form-label">YouTube Channel Id</label>
+                        <input type="text" class="form-control" id="channelId" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">
+                            {% with messages = get_flashed_messages() %}
+                            {% if messages %}
+                            <p class="text-danger">{{messages}}</p>
+                            {% else %}
+                            Channel Id should starts with "@" 
+                            {% endif %}
+                            {% endwith %}
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <h6 class="card-subtitle mt-2 text-muted text-center">Suggested Youtube Channels</h6>
+            <div class="text-center mt-2">
+                <a href="/channel/@iNeuroniNtelligence" class="card-link">Ineuron</a>
+                <a href="/channel/@krishnaik06" class="card-link">Krish Naik</a>
+                <a href="/channel/@CollegeWallahbyPW" class="card-link">College Wallah by PW</a>
+            </div>
+        </div>
+        <div class="container mb-3" style="width: 30rem;">
+        <form onsubmit="window.location = '/video/' + videoId.value; return false;">
+            <div class="mb-3 mt-4">
+                <label for="channelId" class="form-label">YouTube Video Id</label>
+                <input type="text" class="form-control" id="videoId" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">
+                    {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                    <p class="text-danger">{{messages}}</p>
+                    {% else %}
+                    Please provide Video Id
+                    {% endif %}
+                    {% endwith %}
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    </div>
+</div>
+
+{% endblock content %}

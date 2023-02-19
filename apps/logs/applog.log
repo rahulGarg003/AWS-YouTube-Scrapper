@@ -1,0 +1,660 @@
+[2023-02-19 13:51:08,551] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 13:51:08,552] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 13:51:36,935] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 13:51:36] "GET / HTTP/1.1" 200 -
+[2023-02-19 13:52:37,288] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 13:52:37] "GET / HTTP/1.1" 200 -
+[2023-02-19 13:52:59,540] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 13:52:59] "GET / HTTP/1.1" 200 -
+[2023-02-19 13:55:09,891] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 13:55:09,894] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 13:55:33,610] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 13:55:33,612] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 13:55:33,617] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 13:55:35,943] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 13:55:35,962] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 13:55:36,348] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 13:55:36] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:00:46,814] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:00:46] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:01:00,215] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:01:00] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:02:01,267] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:02:01] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:02:19,547] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:02:19] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:04:25,417] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:04:25] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:14:06,671] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:14:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2023-02-19 14:14:07,017] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:14:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 14:14:07,032] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:14:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 14:14:07,436] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:14:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 14:14:07,485] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:14:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 14:14:23,547] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:14:23] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:15:03,018] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:15:03] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:15:07,194] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:15:07] "[33mGET /channel/ HTTP/1.1[0m" 404 -
+[2023-02-19 14:18:33,730] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:18:33] "[33mGET /channel/ HTTP/1.1[0m" 404 -
+[2023-02-19 14:23:44,184] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:23:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2023-02-19 14:23:44,249] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:23:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 14:23:44,258] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:23:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 14:23:44,352] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:23:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 14:23:44,405] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:23:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 14:26:10,654] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:26:10] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:26:14,142] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:26:14] "[33mGET /channel/channelId.value HTTP/1.1[0m" 404 -
+[2023-02-19 14:28:35,206] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:28:35] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:28:38,780] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:28:38] "[33mGET /channel/dfdsf HTTP/1.1[0m" 404 -
+[2023-02-19 14:33:21,905] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:33:21] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:33:46,059] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:33:46] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:33:47,244] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:33:47] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:34:11,065] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:34:11] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:34:12,178] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:34:12] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:34:27,759] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:34:27] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:35:11,526] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:35:11] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:35:19,787] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:35:19] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:35:26,655] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:35:26] "[33mGET /channel/@iNeuroniNtelligence HTTP/1.1[0m" 404 -
+[2023-02-19 14:35:31,324] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:35:31] "[33mGET /channel/@CollegeWallahbyPW HTTP/1.1[0m" 404 -
+[2023-02-19 14:35:54,149] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:35:54] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:35:55,192] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:35:55] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:37:56,371] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:37:56] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:38:55,397] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 14:38:55,399] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 14:38:55,406] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:38:57,037] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:38:57,044] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:39:00,186] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:39:00] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:39:50,437] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:39:50] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:40:16,924] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:40:16] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:42:26,792] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:42:26] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:43:25,335] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 14:43:26,106] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:45:48,315] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 14:45:48,316] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 14:45:48,321] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:45:50,121] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:45:50,128] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:45:51,149] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:45:51] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:49:41,338] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 14:49:41,338] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 14:49:41,338] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:49:43,025] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:49:43,033] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:49:45,992] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:49:45] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 14:49:51,579] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:49:51] "GET /channel/safjaf HTTP/1.1" 200 -
+[2023-02-19 14:50:17,192] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 14:50:17,359] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:50:19,049] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:50:19,057] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:50:27,866] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 14:50:28,046] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:50:29,843] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:50:29,850] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:50:31,033] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 14:50:31,209] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:50:32,809] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:50:32,815] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:50:34,045] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 14:50:34,229] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:50:35,790] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:50:35,798] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:50:37,011] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 14:50:37,195] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:50:38,999] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:50:39,005] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:54:16,476] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 14:54:16,478] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 14:54:16,482] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 14:54:18,240] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 14:54:18,257] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 14:54:20,180] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:54:20] "[32mGET /channel/safjaf HTTP/1.1[0m" 302 -
+[2023-02-19 14:54:20,224] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:54:20] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:54:27,463] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:54:27] "[32mGET /channel/mndmf HTTP/1.1[0m" 302 -
+[2023-02-19 14:54:27,482] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:54:27] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:56:15,198] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:56:15] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:56:18,786] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:56:18] "[32mGET /channel/fdsfds HTTP/1.1[0m" 302 -
+[2023-02-19 14:56:18,808] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:56:18] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:56:45,744] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:56:45] "GET / HTTP/1.1" 200 -
+[2023-02-19 14:56:49,082] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:56:49] "[32mGET /channel/ndnsfd HTTP/1.1[0m" 302 -
+[2023-02-19 14:56:49,099] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 14:56:49] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:03:37,973] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 15:03:37,975] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 15:03:37,982] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:03:39,678] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:03:39,688] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:03:45,201] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 15:03:45,442] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:03:47,427] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:03:47,439] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:03:54,139] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 15:03:54,311] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:03:55,943] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:03:55,952] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:03:58,664] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:03:58] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:04:05,828] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:04:05] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:04:17,642] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:04:17] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:04:31,995] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:04:31] "[35m[1mGET /channel/@abc HTTP/1.1[0m" 500 -
+[2023-02-19 15:04:32,243] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:04:32] "GET /channel/@abc?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-02-19 15:04:32,262] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:04:32] "GET /channel/@abc?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-02-19 15:04:32,356] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:04:32] "GET /channel/@abc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-02-19 15:04:32,406] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:04:32] "[36mGET /channel/@abc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 15:05:04,950] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 15:05:05,126] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:05:08,109] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:05:08,115] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:05:10,429] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 15:05:10,718] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:05:12,571] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:05:12,578] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:06:10,220] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 15:06:10,415] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:06:56,846] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 15:06:56,847] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 15:06:56,854] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:06:58,526] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:06:58,533] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:07:03,039] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:03] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:07:05,442] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:05] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:07:13,940] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:13] "[33mGET /channel HTTP/1.1[0m" 404 -
+[2023-02-19 15:07:17,317] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:17] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:07:22,008] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:22] "[35m[1mGET /channel/@abc HTTP/1.1[0m" 500 -
+[2023-02-19 15:07:22,248] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:22] "[36mGET /channel/@abc?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 15:07:22,261] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:22] "[36mGET /channel/@abc?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 15:07:22,321] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:07:22] "[36mGET /channel/@abc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 15:07:48,665] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 15:07:48,854] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:08:14,867] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 15:08:14,868] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 15:08:14,874] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:08:16,621] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:08:16,629] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:08:20,330] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:08:20] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:08:25,347] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:08:25] "[32mGET /channel/@abc HTTP/1.1[0m" 302 -
+[2023-02-19 15:08:25,364] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:08:25] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:08:35,980] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:08:35] "GET /channel/@CollegeWallahbyPW HTTP/1.1" 200 -
+[2023-02-19 15:10:51,961] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 15:10:52,194] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:10:54,330] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:10:54,338] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:11:12,976] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 15:11:13,343] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:11:16,128] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:11:16,138] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:15:32,797] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 15:15:32,799] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 15:15:32,803] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:15:35,105] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:15:35,120] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:15:46,823] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:15:46] "GET /channel/@CollegeWallahbyPW HTTP/1.1" 200 -
+[2023-02-19 15:32:43,825] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 15:32:43,827] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 15:32:43,832] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:32:45,809] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:32:45,818] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:32:47,827] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:32:47] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:33:03,214] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:33:03] "[35m[1mGET /channel/@iNeuroniNtelligence HTTP/1.1[0m" 500 -
+[2023-02-19 15:33:03,582] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:33:03] "GET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-02-19 15:33:03,584] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:33:03] "GET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-02-19 15:33:03,674] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:33:03] "GET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-02-19 15:33:03,756] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:33:03] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 15:33:27,779] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 15:33:28,255] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:34:33,239] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 15:34:33,242] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 15:34:33,246] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 15:34:35,628] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 15:34:35,677] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 15:34:38,716] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:34:38] "[35m[1mGET /channel/@iNeuroniNtelligence HTTP/1.1[0m" 500 -
+[2023-02-19 15:34:39,040] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:34:39] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 15:34:39,058] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:34:39] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 15:34:39,122] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:34:39] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 15:34:39,176] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:34:39] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 15:35:06,884] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:35:06] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:35:24,023] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:35:24] "GET /channel/@CollegeWallahbyPW HTTP/1.1" 200 -
+[2023-02-19 15:43:41,217] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:43:41] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:53:44,370] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:53:44] "GET / HTTP/1.1" 200 -
+[2023-02-19 15:53:51,380] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:53:51] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:54:12,089] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:54:12] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:56:47,902] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:56:47] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:57:29,810] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:57:29] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:57:52,985] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:57:52] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:59:57,780] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:59:57] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 15:59:57,817] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 15:59:57] "[33mGET /channel/url(https://yt3.googleusercontent.com/LcVfKljG-Nz0A1-15S5QDqRtGrp0BV9lOZ4tqFG0RZooaP5FYCnAYMU14LQs77xNPGvLXA47Jg=s200-c-k-c0x00ffffff-no-rj?days_since_epoch=19407) HTTP/1.1[0m" 404 -
+[2023-02-19 16:00:20,578] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:00:20] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 16:00:46,641] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:00:46] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 16:01:06,153] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:01:06] "GET / HTTP/1.1" 200 -
+[2023-02-19 16:01:08,510] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:01:08] "GET /channel/@krishnaik06 HTTP/1.1" 200 -
+[2023-02-19 16:01:32,438] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:01:32] "GET /channel/@krishnaik06 HTTP/1.1" 200 -
+[2023-02-19 16:01:47,895] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:01:47] "GET /channel/@krishnaik06 HTTP/1.1" 200 -
+[2023-02-19 16:02:03,001] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:02:03] "GET /channel/@krishnaik06 HTTP/1.1" 200 -
+[2023-02-19 16:02:15,079] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:02:15] "GET / HTTP/1.1" 200 -
+[2023-02-19 16:02:24,000] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:02:24] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 16:02:58,691] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:02:58] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 16:05:36,343] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:05:36] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 16:11:28,406] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 16:11:29,253] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 16:33:10,007] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 16:33:10,009] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 16:33:10,021] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 16:33:12,581] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 16:33:12,598] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 16:33:15,734] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:33:15] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 16:34:07,717] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:34:07] "[33mGET /video/0w2Sg0cXoyM HTTP/1.1[0m" 404 -
+[2023-02-19 16:34:51,448] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 16:34:51] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 17:59:08,474] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 17:59:08,475] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 17:59:08,480] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 17:59:10,775] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 17:59:10,782] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 17:59:18,115] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 17:59:18] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 17:59:18,288] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 17:59:18] "[32mGET /channel/video['video-thumbnail']['url'] HTTP/1.1[0m" 302 -
+[2023-02-19 17:59:18,367] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 17:59:18] "GET / HTTP/1.1" 200 -
+[2023-02-19 18:00:11,286] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:00:11] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:01:01,980] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:01:01] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:01:32,196] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:01:32] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:01:55,632] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:01:55] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:02:22,853] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:02:22] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:03:08,427] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:03:08] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:03:10,773] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:03:10] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:05:11,970] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:05:11] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:05:43,023] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:05:43] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:06:42,152] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:06:42] "[35m[1mGET /channel/@iNeuroniNtelligence HTTP/1.1[0m" 500 -
+[2023-02-19 18:06:42,451] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:06:42] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 18:06:42,454] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:06:42] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 18:06:42,519] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:06:42] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 18:06:42,570] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:06:42] "[36mGET /channel/@iNeuroniNtelligence?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 18:07:36,981] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:07:36] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:07:58,071] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:07:58] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:09:30,616] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:09:30] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:12:45,598] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:12:45] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:14:14,143] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:14:14] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:14:52,320] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:14:52] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:14:55,143] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:14:55] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:15:51,085] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:15:51] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:17:21,836] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:17:21] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:17:58,495] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:17:58] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:18:43,726] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:18:43] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:19:14,226] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:19:14] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:21:02,172] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:21:02] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:21:05,459] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:21:05] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:22:05,236] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:22:05] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:22:25,305] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:22:25] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:22:36,206] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:22:36] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:24:07,815] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:24:07] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:24:24,280] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:24:24] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:24:47,599] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:24:47] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:24:58,605] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:24:58] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:25:11,989] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:25:11] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:26:01,345] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:26:01] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:26:18,618] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:26:18] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:27:17,545] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:27:17] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:28:50,545] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:28:50] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-19 18:28:59,807] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:28:59] "[33mGET /video/JpC8M7UMBDM HTTP/1.1[0m" 404 -
+[2023-02-19 18:31:27,635] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:31:27] "[35m[1mGET /channel/@krishnaik06 HTTP/1.1[0m" 500 -
+[2023-02-19 18:31:27,747] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:31:27] "GET /channel/@krishnaik06?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-02-19 18:31:27,748] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:31:27] "GET /channel/@krishnaik06?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-02-19 18:31:27,807] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:31:27] "GET /channel/@krishnaik06?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-02-19 18:31:27,880] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:31:27] "[36mGET /channel/@krishnaik06?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 18:32:09,045] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 18:32:09,761] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:33:28,407] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 18:33:28,409] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 18:33:28,414] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:33:30,317] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:33:30,338] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:33:32,304] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:33:32] "GET /channel/@krishnaik06 HTTP/1.1" 200 -
+[2023-02-19 18:33:51,801] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:33:51] "[33mGET /video/ HTTP/1.1[0m" 404 -
+[2023-02-19 18:34:21,298] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 18:34:21,492] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:35:18,119] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 18:35:18,121] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 18:35:18,127] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:35:20,459] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:35:20,472] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:35:39,663] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:35:39] "GET /channel/@krishnaik06 HTTP/1.1" 200 -
+[2023-02-19 18:36:20,048] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:36:20] "GET /channel/@krishnaik06 HTTP/1.1" 200 -
+[2023-02-19 18:40:20,929] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:40:21,174] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:40:23,174] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:40:23,182] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:45:49,207] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 18:45:49,208] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 18:45:49,214] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:45:50,761] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:45:50,774] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:45:53,723] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:45:53] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 18:45:53,927] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:45:53] "GET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-02-19 18:45:53,928] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:45:53] "GET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-02-19 18:45:53,970] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:45:53] "GET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-02-19 18:45:54,034] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:45:54] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 18:51:10,839] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 18:51:11,039] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:51:12,999] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:51:13,009] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:51:22,416] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 18:51:23,404] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:51:25,841] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:51:25,849] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:51:32,772] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 18:51:33,434] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 18:51:33] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 18:52:48,449] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:52:48,637] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:52:50,099] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:52:50,121] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:52:52,410] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:52:52,631] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:52:54,514] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:52:54,529] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:52:56,808] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:52:56,976] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:52:58,532] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:52:58,545] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:53:12,995] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:53:13,157] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:53:14,684] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:53:14,691] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:53:26,900] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:53:27,054] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:53:28,827] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:53:28,834] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:53:41,113] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:53:41,295] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:53:42,958] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:53:42,967] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:53:50,589] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:53:50,761] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:53:52,538] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:53:52,546] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:53:57,009] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:53:57,322] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:53:59,206] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:53:59,215] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:54:03,731] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:54:03,897] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:54:05,630] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:54:05,637] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 18:55:14,574] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 18:55:14,777] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 18:55:16,619] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 18:55:16,626] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 19:03:16,386] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:03:17,105] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:03:17] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 19:03:17,305] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:03:17] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 19:03:17,319] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:03:17] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 19:03:17,370] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:03:17] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:03:17,432] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:03:17] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:04:12,750] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:04:13,324] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:04:13] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 19:04:13,409] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:04:13] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 19:04:13,414] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:04:13] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 19:04:13,481] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:04:13] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:04:13,537] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:04:13] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:05:53,572] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 19:05:53,931] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 19:06:43,721] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 19:06:43,722] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 19:06:43,727] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 19:06:45,398] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 19:06:45,411] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 19:06:49,489] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:06:50,087] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:06:50] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 19:06:50,277] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:06:50] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 19:06:50,278] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:06:50] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 19:06:50,308] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:06:50] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:06:50,359] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:06:50] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:07:53,842] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:07:54,373] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:07:54] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 19:07:54,450] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:07:54] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 19:07:54,453] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:07:54] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 19:07:54,497] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:07:54] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:07:54,619] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:07:54] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 19:08:20,248] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:08:20,799] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:08:20] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:09:10,179] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:09:10,732] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:09:10] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:09:35,561] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:09:36,033] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:09:36] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:10:06,159] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:10:06,678] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:10:06] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:10:46,966] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:10:47,524] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:10:47] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:26:38,611] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 19:26:38,823] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 19:26:41,590] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 19:26:41,610] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 19:27:46,995] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:27:47,566] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:27:47] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:28:19,120] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:28:19,660] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:28:19] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:29:23,864] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:29:24,388] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:29:24] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:30:22,793] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:30:23,285] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:30:23] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:32:50,824] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:32:51,412] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:32:51] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:33:33,357] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:33:33,898] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:33:33] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:33:53,229] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:33:53,710] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:33:53] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:34:09,708] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:34:10,772] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:34:10] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:34:41,437] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:34:41,932] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:34:41] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:35:31,487] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:35:32,379] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:35:32] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 19:35:59,746] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 19:36:00,233] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 19:36:00] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:08:16,350] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 21:08:16,352] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 21:08:16,358] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:08:17,794] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 21:08:17,814] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 21:08:24,381] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:08:25,066] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:08:25] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:08:25,636] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:08:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-02-19 21:11:28,567] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 21:11:28,749] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:12:15,821] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 21:12:15,823] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 21:12:15,828] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:12:17,202] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 21:12:17,207] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 21:12:32,575] INFO 127.0.0.1 requested http://127.0.0.1:5000/v1/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:12:33,151] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:12:33] "GET /v1/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:13:50,755] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\util.py', reloading
+[2023-02-19 21:13:50,906] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:13:52,400] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 21:13:52,410] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 21:13:58,341] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:13:58,901] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:13:58] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:15:31,374] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:15:31,919] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:15:31] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:15:47,263] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:15:48,031] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:15:48] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:16:12,830] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:16:13,371] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:16:13] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:17:29,360] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:17:29,888] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:17:29] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:17:43,125] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:17:43,619] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:17:43] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:18:45,256] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:18:45,789] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:18:45] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:20:29,876] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:20:30,410] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:20:30] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:22:33,987] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:22:34,536] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:22:34] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:23:00,624] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:23:01,179] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:23:01] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:23:57,062] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:23:57,605] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:23:57] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:25:07,717] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:25:08,280] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:25:08] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:27:04,951] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:27:05,561] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:27:05] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:30:29,630] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:30:30,150] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:30:30] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 21:30:30,340] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:30:30] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 21:30:30,349] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:30:30] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 21:30:30,441] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:30:30] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 21:30:30,488] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:30:30] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 21:30:58,576] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\app.py', reloading
+[2023-02-19 21:30:58,902] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:31:00,956] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 21:31:00,977] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 21:31:04,311] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:31:04,870] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:31:04] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 21:31:05,038] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:31:05] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 21:31:05,053] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:31:05] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 21:31:05,083] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:31:05] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 21:31:05,123] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:31:05] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 21:31:23,636] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 21:31:23,638] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 21:31:23,642] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:31:24,991] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 21:31:25,013] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 21:31:31,257] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:31:31,818] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:31:31] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:32:38,888] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:32:39,378] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:32:39] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:32:54,816] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:32:55,366] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:32:55] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:33:14,783] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:33:15,291] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:33:15] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:33:56,310] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:33:56,882] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:33:56] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:34:09,491] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:34:10,000] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:34:10] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:35:55,629] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 21:35:56,179] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:35:56] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 21:36:21,544] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:36:21] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:42:29,040] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 21:42:29,040] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 21:42:29,044] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:42:30,574] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 21:42:30,587] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 21:42:31,357] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:42:31] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:42:42,217] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:42:42] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:48:53,916] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:48:53] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:49:43,085] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:49:43] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:56:29,090] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:56:29] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:57:22,401] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:57:22] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:58:55,480] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:58:55] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:59:06,014] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:59:06] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:59:16,225] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 21:59:16] "GET / HTTP/1.1" 200 -
+[2023-02-19 21:59:56,800] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 21:59:56,970] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 21:59:58,884] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 21:59:58,893] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 22:01:20,047] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-19 22:01:20,048] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-19 22:01:20,051] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 22:01:21,625] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 22:01:21,633] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 22:01:31,573] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:01:31] "[33mGET /video/https://www.youtube.com/watch?v=Tyf1XrbDNrs HTTP/1.1[0m" 404 -
+[2023-02-19 22:03:52,068] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:03:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2023-02-19 22:03:52,266] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:03:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 22:03:52,268] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:03:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 22:03:52,365] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:03:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:03:52,405] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:03:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:05:29,255] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:05:29] "GET / HTTP/1.1" 200 -
+[2023-02-19 22:05:34,119] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:05:34] "[35m[1mGET /video/videoId.value HTTP/1.1[0m" 500 -
+[2023-02-19 22:05:34,221] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:05:34] "GET /video/videoId.value?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-02-19 22:05:34,224] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:05:34] "GET /video/videoId.value?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-02-19 22:05:34,269] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:05:34] "GET /video/videoId.value?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-02-19 22:05:34,303] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:05:34] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:09,482] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:09] "[35m[1mGET /video/videoId.value HTTP/1.1[0m" 500 -
+[2023-02-19 22:07:09,555] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:09] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:09,559] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:09] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:09,606] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:09] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:09,671] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:09] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:15,665] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:15] "[35m[1mGET /video/videoId.value HTTP/1.1[0m" 500 -
+[2023-02-19 22:07:15,749] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:15] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:15,750] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:15] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:15,783] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:15] "[36mGET /video/videoId.value?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:20,752] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:20] "GET / HTTP/1.1" 200 -
+[2023-02-19 22:07:26,949] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:26] "[35m[1mGET /video/Tyf1XrbDNrs HTTP/1.1[0m" 500 -
+[2023-02-19 22:07:27,356] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:27] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:27,412] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:27] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:27,559] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:27] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:27,973] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:27] "[36mGET /video/Tyf1XrbDNrs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-02-19 22:07:44,444] INFO None requested None in _internal:  * Detected change in 'C:\\Users\\rahul\\OneDrive\\Desktop\\Ineuron_FSDS2.0\\WebScrapper-Challange-2\\youtube-scrapper\\apps\\home\\routes.py', reloading
+[2023-02-19 22:07:44,708] INFO None requested None in _internal:  * Restarting with stat
+[2023-02-19 22:07:46,477] WARNING None requested None in _internal:  * Debugger is active!
+[2023-02-19 22:07:46,485] INFO None requested None in _internal:  * Debugger PIN: 195-344-066
+[2023-02-19 22:07:47,875] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/Tyf1XrbDNrs in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-19 22:07:48,572] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:07:48] "GET /video/Tyf1XrbDNrs HTTP/1.1" 200 -
+[2023-02-19 22:09:04,321] INFO None requested None in _internal: 127.0.0.1 - - [19/Feb/2023 22:09:04] "GET / HTTP/1.1" 200 -
+[2023-02-20 01:06:52,956] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-20 01:06:52,959] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-20 01:07:08,676] INFO None requested None in _internal: 127.0.0.1 - - [20/Feb/2023 01:07:08] "GET / HTTP/1.1" 200 -
+[2023-02-20 01:07:15,809] ERROR 127.0.0.1 requested http://127.0.0.1:5000/channel/%40iNeuroniNtelligence in routes: 'video-id'
+Traceback (most recent call last):
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\home\routes.py", line 26, in channel
+    insert_channel_data(channeldata=channel_data, mysqldb=mysqlDB)
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\home\util.py", line 250, in insert_channel_data
+    exists = mysqldb.session.query(mysqldb.exists().where(ScrappedVideoData.video_id == channeldata['video-id'])).scalar()
+KeyError: 'video-id'
+[2023-02-20 01:07:15,859] INFO None requested None in _internal: 127.0.0.1 - - [20/Feb/2023 01:07:15] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-20 01:08:10,485] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-20 01:08:10,486] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-20 01:08:18,286] INFO None requested None in _internal: 127.0.0.1 - - [20/Feb/2023 01:08:18] "GET /channel/@iNeuroniNtelligence HTTP/1.1" 200 -
+[2023-02-20 01:09:05,520] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-20 01:09:06,334] ERROR 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in routes: 'video-id'
+Traceback (most recent call last):
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\home\routes.py", line 39, in video
+    insert_video_data(videoData=video_data, mysqldb=mysqlDB)
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\home\util.py", line 221, in insert_video_data
+    video_id = videoData['video-id'],
+KeyError: 'video-id'
+[2023-02-20 01:09:06,368] INFO None requested None in _internal: 127.0.0.1 - - [20/Feb/2023 01:09:06] "GET /video/0w2Sg0cXoyM HTTP/1.1" 200 -
+[2023-02-20 01:12:30,812] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-20 01:12:30,813] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-20 01:12:37,739] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-20 01:12:38,671] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in routes: data posted to db for video: 0w2Sg0cXoyM
+[2023-02-20 01:12:38,735] ERROR 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in routes: 'len' is undefined
+Traceback (most recent call last):
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\home\routes.py", line 42, in video
+    return render_template('home/video.html', videodata = video_data, videoid=videoId)
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\.youtube-scrapper\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\.youtube-scrapper\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\.youtube-scrapper\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\.youtube-scrapper\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\templates\home\video.html", line 1, in top-level template code
+    {% extends 'layouts/base.html' %}
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\templates\layouts\base.html", line 20, in top-level template code
+    {% block content %}{% endblock content %}
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\apps\templates\home\video.html", line 48, in block 'content'
+    {% if len(comment['replies']) > 0 %}
+  File "C:\Users\rahul\OneDrive\Desktop\Ineuron_FSDS2.0\WebScrapper-Challange-2\youtube-scrapper\.youtube-scrapper\lib\site-packages\jinja2\utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'len' is undefined
+[2023-02-20 01:12:38,758] INFO None requested None in _internal: 127.0.0.1 - - [20/Feb/2023 01:12:38] "GET /video/0w2Sg0cXoyM HTTP/1.1" 200 -
+[2023-02-20 01:13:50,598] INFO None requested None in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-02-20 01:13:50,598] INFO None requested None in _internal: [33mPress CTRL+C to quit[0m
+[2023-02-20 01:14:24,625] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-20 01:14:25,467] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in routes: data posted to db for video: 0w2Sg0cXoyM
+[2023-02-20 01:14:25,593] INFO None requested None in _internal: 127.0.0.1 - - [20/Feb/2023 01:14:25] "GET /video/0w2Sg0cXoyM HTTP/1.1" 200 -
+[2023-02-20 01:16:36,014] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in __init__: file_cache is only supported with oauth2client<4.0.0
+[2023-02-20 01:16:36,769] INFO 127.0.0.1 requested http://127.0.0.1:5000/video/0w2Sg0cXoyM in routes: data posted to db for video: 0w2Sg0cXoyM
+[2023-02-20 01:16:36,779] INFO None requested None in _internal: 127.0.0.1 - - [20/Feb/2023 01:16:36] "GET /video/0w2Sg0cXoyM HTTP/1.1" 200 -

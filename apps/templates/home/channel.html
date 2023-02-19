@@ -1,0 +1,51 @@
+{% extends 'layouts/base.html' %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="card w-100 mt-4 shadow-lg" style="height: auto;">
+        <div class="card-body" style="background-image: linear-gradient(to right, #3366cc -9%, #ff9933 130%);">
+            <h5 class="card-title" style="color: black; text-align: center;font-size:xx-large; font-weight: bolder; margin-top: 2rem;">
+                <a href="{{channeldata['channel-url']}}" style="color: black;" target="_blank">
+                    {{channeldata['channel-title'] }}
+                </a>
+            </h5>
+            <p class="card-text mt-5"
+                style="color:black;font-weight:400;font-size:large; text-justify: newspaper; margin-left: 10rem; margin-right: 10rem; margin-block-end: 2rem;">
+                {{ channeldata['channel-description'] }}
+            </p>
+            <h6 class="card-subtitle mb-2 text-black" style="text-align: end;margin-right: 5rem;">
+                Total Videos: {{channeldata['channel-videos-count']}}
+            </h6>
+        </div>
+    </div>
+    <div class="container mb-5">
+    <div class="row justify-content-md-center">
+        {% if 'Videos' in channeldata['channel-video-content'] %}
+    {% for video in channeldata['channel-video-content']['Videos']%}
+        <div class="col-sm-4 mt-3">
+            <a href="/video/{{video['videoid']}}" style="text-decoration: none;">
+            <div class="card shadow-lg" style="width: 23rem;">
+                <img src="{{video['video-thumbnail']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{video['video-label']}}</h5>
+                  <!-- <p class="card-text"></p> -->
+                </div>
+                <ul class="list-group list-group-flush">
+                    <!-- <li class="list-group-item">{{video['video-description']}}</li> -->
+                    <li class="list-group-item">Length: {{video['video-length']}}</li>
+                  <li class="list-group-item">Views: {{video['video-viewcount']}}</li>
+                  <li class="list-group-item">Published: {{video['video-published-time']}}</li>
+                </ul>
+              </div>
+            </a>
+        </div>
+        {% endfor %}
+    {% endif %}
+      </div>
+    
+</div>
+</div>
+
+{% endblock content %}

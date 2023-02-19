@@ -1,0 +1,85 @@
+{% extends 'layouts/base.html' %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="card w-100 mt-4 shadow-lg" style="height: auto;">
+        <div class="card-body" style="background-image: linear-gradient(to right, #3366cc -9%, #ff9933 130%);">
+            <h5 class="card-title"
+                style="color: black; text-align: center;font-size:xx-large; font-weight: bolder; margin-top: 2rem;">
+                <a href="https://www.youtube.com/watch?v={{videoid}}" style="color: black;" target="_blank">
+                    {{videodata['video-title']}}
+                </a>
+            </h5>
+            <p class="card-text mt-5"
+                style="color:black;font-weight:400;font-size:large; text-justify: newspaper; margin-left: 15rem; margin-right: 10rem; margin-block-end: 2rem;">
+                {{videodata['video-description']}}
+            </p>
+            <div class="container" style="text-align: end;margin-right: 5rem; width: 15rem;">
+                <h6 class="card-subtitle mb-2 text-black">
+                    Owner: <a href="https://www.youtube.com{{videodata['video-owner-url']}}"
+                        target="_blank" style="color: black;">{{videodata['video_owner']}}</a>
+                </h6>
+                <h6 class="card-subtitle mb-2 text-black">
+                    Likes: {{videodata['video-likes']}}
+                </h6>
+                <h6 class="card-subtitle mb-2 text-black">
+                    Published On: {{videodata['video-published-date']}}
+                </h6>
+                <h6 class="card-subtitle mb-2 text-black">
+                    {{videodata['video-published-reldate']}}
+                </h6>
+                <h6 class="card-subtitle mb-2 text-black">
+                    Total Views: {{videodata['video-view-count']}}
+                </h6>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="card shadow-lg mt-4 p-5"> -->
+        <h5 class="card-title mt-2 mb-2" style="color:#ff9933;font-size:x-large;font-weight: bold;">Course
+            Comments</h5>
+        <div class="container ml-2 mr-2 mb-4">
+        {% for index, comment in enumerate(videodata['video-comments']) %}
+        <div class="card shadow-lg mt-1">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingOne">
+                {% if len(comment['replies']) > 0 %}
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne{{index}}" aria-expanded="true" aria-controls="collapseOne">
+                  {{comment['comment']}}
+                  <br><br>
+                  {{comment['author-name']}}  
+                  {{comment['published_at']}}  
+                  Likes: {{comment['likes']}}
+                </button>
+                {% else %}
+                <div class="m-3">
+                {{comment['comment']}}
+                <br><br>
+                {{comment['author-name']}}  
+                {{comment['published_at']}}  
+                Likes: {{comment['likes']}}
+            </div>
+                {% endif %}
+            </div>
+              {% for reply in comment['replies'] %}
+              <div id="collapseOne{{index}}" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    {{reply['reply-comment']}}
+                    <br><br>
+                    {{reply['reply-author-name']}}  
+                    {{reply['published_at']}}  
+                    Likes: {{reply['likes']}}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+          {% endfor %}
+        </div>
+    <!-- </div> -->
+</div>
+
+{% endblock content %}
