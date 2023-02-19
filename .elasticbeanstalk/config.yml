@@ -2,7 +2,7 @@ branch-defaults:
   main:
     environment: null
 global:
-  application_name: ineuronscrapper
+  application_name: youtubescrapper
   branch: main
   default_ec2_keyname: null
   default_platform: Python 3.8
