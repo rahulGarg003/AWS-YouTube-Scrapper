@@ -248,9 +248,9 @@ def insert_channel_data(channeldata, mysqldb):
         channel_url = channeldata['channel-url'],
         channel_videos_count = channeldata['channel-videos-count']
     )
-    exists = mysqldb.session.query(mysqldb.exists().where(ScrappedVideoData.video_id == channeldata['channel-id'])).scalar()
+    exists = mysqldb.session.query(mysqldb.exists().where(ScrappedChannelData.channel_id == channeldata['channel-id'])).scalar()
     if(exists):
-        existingdata = ScrappedVideoData.query.filter_by(video_id = channeldata['channel-id'])
+        existingdata = ScrappedChannelData.query.filter_by(channel_id = channeldata['channel-id'])
         existingdata.channel_title = channeldata['channel-title'],
         existingdata.channel_description = channeldata['channel-description'],
         existingdata.channel_url = channeldata['channel-url'],

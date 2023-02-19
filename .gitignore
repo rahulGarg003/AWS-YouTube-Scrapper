@@ -1,3 +1,4 @@
 .env
 __pycache__
 .youtube-scrapper
+apps/logs/applog.log
