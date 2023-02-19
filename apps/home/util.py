@@ -175,6 +175,9 @@ def get_video_comments(videoId):
 
     while ("nextPageToken" in data):
 
+        if(len(commentsdata) >= 50):
+            break
+
         data = youtube.commentThreads().list(part='snippet', videoId=ID, pageToken=data["nextPageToken"],
                                                 maxResults='100', textFormat="plainText").execute()
 
